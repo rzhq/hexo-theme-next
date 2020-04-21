@@ -57,11 +57,11 @@ footer:
   # Icon between year and copyright info.
   icon:
     # Icon name in Font Awesome. See: https://fontawesome.com/icons
-    name: fa fa-heart
+    name: fa fa-fire
     # If you want to animate the icon, set it to true.
     animated: false
     # Change the color of icon, using Hex Code.
-    color: "#ff0000"
+    color: "#999"
 
   # If not defined, `author` from Hexo `_config.yml` will be used.
   copyright:
@@ -97,9 +97,9 @@ creative_commons:
 # ---------------------------------------------------------------
 
 # Schemes
-scheme: Muse
+#scheme: Muse
 #scheme: Mist
-#scheme: Pisces
+scheme: Pisces
 #scheme: Gemini
 
 # Dark Mode
@@ -338,11 +338,11 @@ calendar:
 # Set the text alignment in posts / pages.
 text_align:
   # Available values: start | end | left | right | center | justify | justify-all | match-parent
-  desktop: justify
-  mobile: justify
+  desktop: left
+  mobile: left
 
 # Reduce padding / margin indents on devices with narrow width.
-mobile_layout_economy: false
+mobile_layout_economy: true
 
 # Android Chrome header panel color ($brand-bg / $headband-bg => $black-deep).
 android_chrome_color: "#222"
@@ -421,7 +421,7 @@ font:
   # Global font settings used for all elements inside <body>.
   global:
     external: true
-    family: Lato
+    family: Arial
     size:
 
   # Font settings for site title (.site-title).
@@ -739,7 +739,7 @@ algolia_search:
 # Local Search
 # Dependencies: https://github.com/theme-next/hexo-generator-searchdb
 local_search:
-  enable: false
+  enable: true
   # If auto, trigger search by changing input.
   # If manual, trigger search by pressing enter key or search button.
   trigger: auto
@@ -823,7 +823,7 @@ mermaid:
 # Use velocity to animate everything.
 # For more information: http://velocityjs.org
 motion:
-  enable: true
+  enable: false
   async: false
   transition:
     # Transition variants:
